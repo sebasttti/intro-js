@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Undefined Devs App</title>
+    <style>
+        .containerM{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            width: 100%;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container img{
+            width: 500px;
+            height: auto;
+        }
+
+        .container h1{
+            text-align: center;
+        }
+
+        *{
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+   <div class="containerM">
+       <table class=" table table-striped">
+           <tr>
+               <td>Nombre</td>
+               <td><span id="nombre"></span></td>
+           </tr>
+           <tr>
+               <td>Edad</td>
+               <td><span id="edad"></span></td>
+           </tr>
+           <tr>
+               <td>Peliculas</td>
+               <td><span id="peliculas"></span></td>
+           </tr>
+       </table>
+   </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
